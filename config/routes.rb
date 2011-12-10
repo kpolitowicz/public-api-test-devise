@@ -1,4 +1,8 @@
 PublicApiTestDevise::Application.routes.draw do
+  devise_for :users
+
+  root :to => "notes#index"
+
   resources :notes
 
   # The priority is based upon order of creation:
