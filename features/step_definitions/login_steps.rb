@@ -1,4 +1,4 @@
 When /^I go to the home page$/ do
-  visit '/'
-  sleep 10
+  visit root_path
+  sleep 5
 end
